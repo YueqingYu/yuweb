@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>esercizi tag</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <!--es 1.2.1: titoli h-->
+        <h1>titolo 1</h1>
+        <h2>titolo 2</h2>
+        <h3>titolo 3</h3>
+        <h4>titolo 4</h4>
+        <h5>titolo 5</h5>
+        <h6>titolo 6</h6>
+        <p>ciao
+        <!--es 1.2.2: lista puntate--> 
+        <h1>argomenti imparati finora</h1>
+        <ul>
+            <li>titolo h</li>
+            <li>commenti</li>
+            <li>lista puntate</li>
+        </ul>
+        
+        <!--1.2.3: liste numerate-->
+        <h1>le mie bevande preferite</h1>
+        <ol>
+            <li>acqua</li>
+            <li>the pesca</li>
+            <li>cocacola</li>
+            <li>ace</li>
+        </ol>
+        
+        <!--es 1.2.4: a capo in <li>, tag small-->
+        <h2>le mie bevande preferite</h2>
+        <ol>
+            <li>
+                <b>acqua</b><br>
+                <small>I love acqua</small>
+            </li>
+            <li>
+                <b>the pesca</b><br>
+                <small>I love pesca</small>
+            </li>
+            <li>
+                <b>cocacola</b><br>
+                <small>I love cola</small>
+            </li>
+            <li>
+                <b>ace</b><br>
+                <small>I love ace</small>
+            </li>
+        </ol>
+        
+        <!--liste annidate-->
+        <h2>le mie bevande preferite e quando le bevo</h2>
+        <ol>                                                                    <!-- tag di apertura della lista principale -->
+            <li>                                                                <!-- tag di apertura del primo elemento della lista principale --> 
+                <b>acqua</b><br>
+                <ul>                                                            <!-- tag di apertura della sotto-lista -->
+                    <li><small>I love acqua</small></li>                        <!--elementi della sotto-lista -->
+                    <li><small>tutto il giorno, non posso mancare l'acqua</small></li>
+                </ul>                                                           <!-- tag di chiusura della sotto-lista -->
+            </li>                                                               <!--tag di chiusura del primo elemento della lista principale-->
+            <li>
+                <b>the pesca</b><br>
+                <ul>
+                    <li><small>I love pesca</small></li>
+                    <li><small>qualche volta lo bevo</small></li>
+                </ul>
+            </li>
+            <li>
+                <b>cocacola</b><br>
+            <ul>
+                <li><small>I love cola</small></li>
+                <li><small>quando festeggio lo bevo</small></li>
+            </ul>
+            </li>
+            <li>
+                <b>ace</b><br>
+                <ul>
+                    <li><small>I love ace</small></li>
+                    <li><small>non bevo da tanto tempo</small></li>
+                </ul>
+            </li>
+        </ol>                                                                   <!-- tag di chiusura della lista principale -->
+        
+    </body>
+</html>
